@@ -1,0 +1,30 @@
+
+;; Function main (main, funcdef_no=0, decl_uid=3174, cgraph_uid=1, symbol_order=0)
+
+int main ()
+{
+  int a;
+  int D.3181;
+
+  <bb 2> :
+  a = 4;
+  if (a != 4)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  a = 2;
+
+  <bb 4> :
+somewhere:
+  printf ("%d", a);
+  D.3181 = 0;
+
+  <bb 5> :
+<L3>:
+  return D.3181;
+
+}
+
+

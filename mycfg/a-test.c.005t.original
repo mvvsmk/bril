@@ -1,0 +1,20 @@
+
+;; Function main (null)
+;; enabled by -tree-original
+
+
+{
+  int a = 4;
+  void somewhere = <<< error >>>;
+
+    int a = 4;
+  if (a != 4)
+    {
+      a = 2;
+    }
+  somewhere:;
+  printf ((const char * restrict) "%d", a);
+  return 0;
+}
+return 0;
+

@@ -1,0 +1,23 @@
+int main ()
+{
+  int D.3181;
+
+  {
+    int a;
+    void somewhere = <<< error >>>;
+
+    a = 4;
+    if (a != 4) goto <D.3179>; else goto <D.3180>;
+    <D.3179>:
+    a = 2;
+    <D.3180>:
+    somewhere:
+    printf ("%d", a);
+    D.3181 = 0;
+    return D.3181;
+  }
+  D.3181 = 0;
+  return D.3181;
+}
+
+
